@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+	
+
+html, body {
+    height: 100%;
+}    
+
+#page {
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #7F9BA6;
+}
+
+#section {
+    overflow: auto;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#input {
+    padding: 10px;
+    background-color: #F1F1F1;
+}
+
+#weatherResults {
+    padding: 10px;
+    background-color: #F1F1F1;
+}
+
+#forecastResults {
+    padding: 20px;
+    background-color: #7F9BA6;
+}
+
+#footer {
+    background-color: #4E6969;
+    position: relative;
+    height: 20px;
+    margin-top: -20px;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
+a {
+ color: white;
+}
